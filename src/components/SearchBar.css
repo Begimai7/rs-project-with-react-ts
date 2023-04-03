@@ -1,0 +1,12 @@
+.search-bar__form{
+  width: 600px;
+}
+.search-bar__input{
+  margin: 1px auto;
+  font-size: 25px;
+  width: 80%;
+  border-radius: 36px;
+  padding: 15px 25px;
+  border: 3px solid rgb(8, 66, 93);
+  outline: none;
+}
