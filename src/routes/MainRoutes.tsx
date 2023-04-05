@@ -5,7 +5,7 @@ import { HomeLayout } from '../layout/HomeLayout'
 export const MainRoutes = () => {
   return (
     <Routes>
-     <Route exact path='/' element={<HomeLayout /> }/>
+     <Route path='/' element={<HomeLayout /> }/>
     </Routes>
   )
 }
