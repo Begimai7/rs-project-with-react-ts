@@ -29,4 +29,9 @@ export const DATA = [
   title: 'Ginebra free font',
   img: 'https://5.imimg.com/data5/SELLER/Default/2022/10/MY/HD/AX/7501431/book-shelves-500x500.jpg'
  },
+ {
+  id: Math.random(),
+  title: 'Ginebra free font',
+  img: 'https://5.imimg.com/data5/SELLER/Default/2022/10/MY/HD/AX/7501431/book-shelves-500x500.jpg'
+ },
 ]

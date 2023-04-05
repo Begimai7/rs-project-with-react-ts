@@ -1,14 +1,23 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import { SearchBar } from './components/SearchBar';
 import { MainRoutes } from './routes/MainRoutes';
 
-function App() {
+function AppContent() {
   // eslint-disable-next-line jsx-a11y/heading-has-content
   return (
     <div>
       <MainRoutes />
     </div>
   );
+}
+
+function App(){
+ return(
+  <BrowserRouter>
+     <AppContent />
+  </BrowserRouter>
+  
+ )
 }
 
 export default App;
